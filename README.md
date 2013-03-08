@@ -1,4 +1,4 @@
-# Frozen Development Boilerplate
+# Frozen Development Boilerplate for Box2d games
 
 ## Getting started
 
