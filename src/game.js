@@ -20,12 +20,12 @@ define([
     box: new Box({resolveCollisions: true}), //change any box defaults here
     initInput: function(im){
       //setup key mappings
-      im.addKeyAction(keys.UP_ARROW, true);
+      im.addKeyAction(keys.UP_ARROW);
     },
     handleInput: function(im, millis){
       //do something with key event
       if(im.keyActions[keys.UP_ARROW].isPressed()){
-        //this.box.applyImpulseDegrees('ball', 0, 0.1);
+        //this.box.applyImpulseDegrees('ball', 0, 5);
       }
     }
   });
